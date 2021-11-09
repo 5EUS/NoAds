@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "noads",
+  "version": "${version}",
+
+  "name": "No Ads!",
+  "description": "Implementing what Minehut is too lazy to do themselves; a way to disable ads.",
+  "authors": [
+    "5EUS"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/noads/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.noads.main"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

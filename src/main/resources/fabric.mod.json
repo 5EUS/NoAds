@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-
+    "noads.mixins.json"
   ],
 
   "depends": {

@@ -12,7 +12,7 @@ public abstract class ChatHudMixin {
 
     @Inject(at = @At("HEAD"), method = "addMessage", cancellable = true)
     private void addMessage(Text message, CallbackInfo info) {
-        if (message.asString().startsWith("[AD]")) {
+        if (message.asString().contains("[AD]")) {
             info.cancel();
         }
     }
